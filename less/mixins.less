@@ -1,1 +1,13 @@
 // Mixins in here
+.btn { 
+    font-size: 1.8rem;
+    border: 1px solid none;
+    background: @button-bg;
+    border-radius: 15px;
+    padding: 10px 40px;
+    text-align: center;
+    color: @main-bg;
+    @media @mobile {
+        Display: flex-wrap;
+    }
+}
